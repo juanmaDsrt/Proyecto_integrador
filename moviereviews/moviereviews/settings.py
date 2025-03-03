@@ -42,7 +42,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'moviereviews',
     'movie',
+    'news',
 ]
 
 MIDDLEWARE = [
@@ -62,7 +64,7 @@ import os  # Asegúrate de importar os
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, "moviereviews/movie/templates")],  # Agregar la ruta de las plantillas
+        'DIRS': [os.path.join(BASE_DIR, "moviereviews/templates")],  # Agregar la ruta de las plantillas
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -130,3 +132,8 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+    'moviereviews/static/',
+]
