@@ -5,11 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39664087-49d4-45e9-ab4a-ed2d14816877" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cvs_to_json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moviereviews/media/movie/images/default.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moviereviews/movie/management/commands/add_movies_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moviereviews/movie/templates/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moviereviews/movie/templates/statistics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moviereviews/moviereviews/static/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moviereviews/moviereviews/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moviereviews/news/templates/news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moviereviews/news/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/movies_initial.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moviereviews/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/moviereviews/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moviereviews/movie/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviereviews/movie/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moviereviews/movie/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviereviews/movie/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviereviews/movie/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/moviereviews/movie/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moviereviews/movie/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviereviews/movie/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moviereviews/moviereviews/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviereviews/moviereviews/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moviereviews/moviereviews/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/moviereviews/moviereviews/urls.py" afterDir="false" />
@@ -23,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -38,17 +49,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jmflo/PycharmProjects/moviereviewsproject&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/jmflo/PycharmProjects/moviereviewsproject/moviereviews/moviereviews/static/images"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jmflo\PycharmProjects\moviereviewsproject\moviereviews\moviereviews\static\images" />
+      <recent name="C:\Users\jmflo\PycharmProjects\moviereviewsproject" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jmflo\PycharmProjects\moviereviewsproject\moviereviews\moviereviews" />
+      <recent name="C:\Users\jmflo\PycharmProjects\moviereviewsproject\moviereviews\movie\management\commands" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="moviereviewsproject" />
